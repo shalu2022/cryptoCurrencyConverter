@@ -1,5 +1,5 @@
 import Axios from 'axios'
-Axios.defaults.baseURL = "http://localhost:8000/api/v1";
+Axios.defaults.baseURL = "https://crypto-currency-converter-sigma.vercel.app/";
 // const baseUrl = process.env.REACT_APP_BASE_URL
 
 export const getAllCryptoList = async () =>  {
